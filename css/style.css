@@ -1,0 +1,537 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ----FONTS--- */
+@font-face {
+    font-family: "Food packer";
+    src: url("../fonts/foodpack.otf");
+}
+
+/* ---HEADER--- */
+ul li{
+    list-style: none ;
+}
+.logo {
+    width: 200px;
+}
+
+.header{
+    background-color: #4C061D;
+    color: white;
+    
+}
+.header__logo{
+    text-align: center;
+}
+.nav__item{
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+}
+
+/* ---BARRA DE NAVEGACION--- */
+.contenedor {
+    background-color:#4C061D ;
+    display: grid;
+    height: 15vh;
+    grid-template-columns: repeat(6,minmax(auto,1fr)) ;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+.enlace__lista{
+    text-decoration: none;
+    color: white;
+    
+}
+.caja-contacto{
+    color: black;
+    text-decoration: none;
+}
+
+.contenedor-m{
+    background-color:#4C061D ;
+    height: 15vh;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo__contacto{
+    background-color: black;
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    gap: 100px;
+}
+
+.img__fondo{
+    width: 99.9vw;
+    height: 90vh;
+}
+.espacio__fondo{
+    
+    width: 99vw;
+}
+
+.separador{
+    height: 50px;
+    background-color: gray;
+}
+
+.cuadro {
+    background-color:white;
+    height: 4vh;
+    border-radius: 100px;
+    width: 6.2vw;
+}
+
+/* ---MAIN--- */
+.letrero {
+    background-color: #4C061D;
+    font-family: "Food packer";
+    font-size: 40px;
+    color: yellow;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.borde {
+    border: 10px coral solid;
+    margin: 15px;
+    width: 250px;
+}
+
+.fondo__{
+    width: 99VW;
+    height: 80vh ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 300px 100px;
+    align-items: center;
+    justify-items: center;
+}
+.fondo__amarillo{
+    background-color: #ffa500;
+    height: 90vh;
+}
+.fondo__clase{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 100px 300px;
+    align-items: center;
+    justify-items: center;
+}
+
+.fondo__gris{
+    background-color: lightgray;
+    height: 110vh;
+}
+
+.fondo__negro{
+    background-color: black;
+    height: 80vh;
+}
+.fondo__rojo{
+    background-color: #4C061D;
+    height: 80vh;
+    padding: 15vh;
+
+}
+
+.button__{
+    background-color: aqua;
+    padding: 20px;
+}
+.button__black{
+    background-color: black;
+    color: white;
+    border: 20px black solid;
+}
+.estructura__grid{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.estructura__flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.estructura__texto{
+    margin: 50px;
+}
+.estructura__color{
+    color: white;
+}
+
+.img__menu{
+    height: 200px;
+    width: 350px;
+}
+
+.button__gyoza{
+    grid-row: 2/3;
+}
+.button__pita{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.button__arroz{
+    grid-row: 2/3;
+}
+.button__pad{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.button__tiramisu{
+    grid-row: 2/3;
+}
+.button__pie{
+    grid-row: 2/3;
+}
+
+.img__menuhomero{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.img__menupatricio{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.div__img{
+    width: 95%;
+}
+
+.contenedor__d img{
+    width: 90%;
+    height: 400px;
+    display: block;
+    margin: 10px auto;
+}
+
+.font__texto{
+    font-family: "sigmar";
+}
+.font__color{
+    background-color: #ffa500;
+}
+
+.font__size{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.texto__direccion{
+    text-align: center;
+}
+.size__texto{
+    font-size: 8vw;
+}
+.subtexto__blanco{
+    font-size: 8vw;
+    text-align: center;
+    margin: 50px;
+    font-family: "sigmar";
+    color: white;
+}
+.subtexto__negro{
+    font-size: 8vw;
+    text-align: center;
+    margin: 50px;
+    font-family: "sigmar";
+    color: black;
+}
+
+@media(min-width:400px){
+    .contenedor__d{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,200px);
+        justify-items: center;
+        align-items: center;
+    }
+    .contenedor__d2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr;
+        margin: 20px;
+        gap: 20px;
+    }
+    .whatsapp{
+        grid-row: 3/4;
+    }
+    .contenedor__d h4{
+        font-size: 8vw;
+    }
+    .subtexto__blanco{
+        font-size: 2vw;
+        text-align: center;
+        margin: 50px;
+        font-family: "sigmar";
+        color: white;
+    }
+    .subtexto__negro{
+        font-size: 2vw;
+        text-align: center;
+        margin: 50px;
+        font-family: "sigmar";
+        color: black;
+    }
+    .header{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img__domiciliario{
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+    .img__rappi{
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    .texto__rappi{
+        grid-column: 2/3;
+        grid-row: 1/4;
+        color: white;
+    }
+    .fondo__negro{
+        height: 100vh;
+    }
+    .flexblox{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+
+}
+
+@media(max-width:400px){
+    .fondo__negro{
+        height: 600px;
+    }
+    .fondo__amarillo{
+        height: 800px;
+    }
+    .contenedor__d h3{
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+    }
+    .img__fondo{
+        height:auto;
+    }
+    .fondo__negro h4{
+        font-size: 11vw;
+        color: white;
+        text-align: center;
+    }
+    .nav-list{
+        gap: 50px;
+    }
+    .fondo__amarilo{
+        height: 300vh;
+    }
+    .caja{
+        font-size: 15px;
+    }
+    .cuadro{
+        background-color:white;
+        height: 4vh;
+        border-radius: 100px;
+        width: 6.2vw;
+    }
+    .logo{
+        width: 40vw;
+    }
+    .letrero{
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .footer{
+        font-size: 2vw;
+    }
+    .mapa{
+        width: 99%;
+    }
+
+    }
+
+}
+.formulario{
+    text-align: center;
+}
+
+#ulti-act {
+    background-color: darkblue;
+    color: orange;
+}
+
+
+.chef1 {
+    width: 337px;
+    height: 300px;
+}
+
+.chef2 {
+    height: 300px;
+    width: 404px;
+}
+
+.chef3 {
+    height: 300px;
+    width: 353px;
+}
+
+.cheff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+
+.txt-1 {
+    padding: 10px;
+    border: 10px coral solid;
+    margin: 15px;
+    width: 300px;
+    height: 120px;
+
+}
+
+.txt-2 {
+    padding: 10px;
+    border: 10px coral solid;
+    width: 300px;
+    margin: 15px;
+    height: 120px;
+
+}
+
+.txt-3 {
+    padding: 10px;
+    border: 10px coral solid;
+    margin: 15px;
+    width: 300px;
+    height: 120px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "sigmar";
+}
+
+.nm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja-nm {
+    border: 15px coral solid;
+    display: flex;
+}
+
+.txt-nm {
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "sigmar";
+}
+
+.miche {
+    width: 375px;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+
+}
+
+.upromo {
+    font-family: "Food packer";
+}
+
+.caja-ulti {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ulti {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: "sigmar";
+    width: 500px;
+    height: 200px;
+    
+}
+
+.superp {
+    height: 300px;
+    width: 353px;
+}
+
+/* ---FOOTER--- */
+.hero-footer {
+    background-color: #4C061D;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+
+.footer {
+    /* margin: 20px; */
+    color: white;
+    text-decoration: none;   
+}
+
+.divf {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-template-rows: 1fr 20px;
+}
+
+.conocenos{
+    grid-column: 1/3;
+    padding: 0pxs;
+}
+.encuentranos{
+    text-align: start;
+}
