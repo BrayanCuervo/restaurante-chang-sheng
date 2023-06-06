@@ -15,7 +15,7 @@ ul li{
     list-style: none ;
 }
 .logo {
-    width: 200px;
+    width: 30vw;
 }
 
 .header{
@@ -28,8 +28,8 @@ ul li{
 }
 .nav__item{
     text-align: center;
-    font-size: 12px;
-    padding: 8px;
+    font-size: 3vw;
+    padding: 0.5vw;
 }
 
 /* ---BARRA DE NAVEGACION--- */
@@ -75,9 +75,11 @@ ul li{
     display: flex;
     gap: 100px;
 }
-
+.domicilio__fondo{
+    width: 100%;
+}
 .img__fondo{
-    width: 99.9vw;
+    width: 100%;
     height: 90vh;
 }
 .espacio__fondo{
@@ -108,6 +110,20 @@ ul li{
     justify-content: center;
 
 }
+.img__domicilio{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.subtitulo{
+    color: yellow;
+    font-family: "Food packer";
+    font-size: 5vw;
+}
+.img__flecha{
+    width: 100%;
+    padding-left: 10%;
+}
 
 .borde {
     border: 10px coral solid;
@@ -128,6 +144,13 @@ ul li{
     background-color: #ffa500;
     height: 90vh;
 }
+.bgmobile__yellow{
+    background-color: #ffa500;
+    height: 100%;
+}
+.bgmobile__black{
+    background-color: black;
+}
 .fondo__clase{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -136,9 +159,9 @@ ul li{
     justify-items: center;
 }
 
-.fondo__gris{
+.bgmobile__gray{
     background-color: lightgray;
-    height: 110vh;
+    height: 100%;
 }
 
 .fondo__negro{
@@ -222,11 +245,10 @@ ul li{
     width: 95%;
 }
 
-.contenedor__d img{
-    width: 90%;
-    height: 400px;
-    display: block;
-    margin: 10px auto;
+.img__rappi{
+    width: 80%;
+    margin: 10%;
+
 }
 
 .font__texto{
@@ -249,139 +271,21 @@ ul li{
 .subtexto__blanco{
     font-size: 8vw;
     text-align: center;
-    margin: 50px;
     font-family: "sigmar";
     color: white;
 }
 .subtexto__negro{
     font-size: 8vw;
     text-align: center;
-    margin: 50px;
     font-family: "sigmar";
     color: black;
 }
 
-@media(min-width:400px){
-    .contenedor__d{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,200px);
-        justify-items: center;
-        align-items: center;
-    }
-    .contenedor__d2{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 1fr;
-        margin: 20px;
-        gap: 20px;
-    }
-    .whatsapp{
-        grid-row: 3/4;
-    }
-    .contenedor__d h4{
-        font-size: 8vw;
-    }
-    .subtexto__blanco{
-        font-size: 2vw;
-        text-align: center;
-        margin: 50px;
-        font-family: "sigmar";
-        color: white;
-    }
-    .subtexto__negro{
-        font-size: 2vw;
-        text-align: center;
-        margin: 50px;
-        font-family: "sigmar";
-        color: black;
-    }
-    .header{
-        display: flex;
-        padding: 10px;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .img__domiciliario{
-        grid-column: 2/3;
-        grid-row: 1/4;
-    }
-    .img__rappi{
-        grid-column: 1/2;
-        grid-row: 1/4;
-    }
-    .texto__rappi{
-        grid-column: 2/3;
-        grid-row: 1/4;
-        color: white;
-    }
-    .fondo__negro{
-        height: 100vh;
-    }
-    .flexblox{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 50px;
-
-}
-
-@media(max-width:400px){
-    .fondo__negro{
-        height: 600px;
-    }
-    .fondo__amarillo{
-        height: 800px;
-    }
-    .contenedor__d h3{
-        justify-content: center;
-        display: flex;
-        font-size: 30px;
-    }
-    .img__fondo{
-        height:auto;
-    }
-    .fondo__negro h4{
-        font-size: 11vw;
-        color: white;
-        text-align: center;
-    }
-    .nav-list{
-        gap: 50px;
-    }
-    .fondo__amarilo{
-        height: 300vh;
-    }
-    .caja{
-        font-size: 15px;
-    }
-    .cuadro{
-        background-color:white;
-        height: 4vh;
-        border-radius: 100px;
-        width: 6.2vw;
-    }
-    .logo{
-        width: 40vw;
-    }
-    .letrero{
-        font-size: 6vw;
-        display: block;
-        text-align: center;
-        padding: 0px;
-    }
-    .footer{
-        font-size: 2vw;
-    }
-    .mapa{
-        width: 99%;
-    }
-
-    }
-
-}
 .formulario{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    font-size: 3vw;
 }
 
 #ulti-act {
@@ -508,6 +412,10 @@ ul li{
 .hero-footer {
     background-color: #4C061D;
 }
+.contenedor__footer{
+    display: flex;
+    justify-content: space-around;
+}
 
 .foot {
     display: grid;
@@ -516,9 +424,15 @@ ul li{
 }
 
 .footer {
-    /* margin: 20px; */
     color: white;
     text-decoration: none;   
+
+}
+.item__footer{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+    
 }
 
 .divf {
@@ -534,4 +448,94 @@ ul li{
 }
 .encuentranos{
     text-align: start;
+}
+.button__form{
+    width: 40%;
+}
+
+
+@media(min-width:400px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10vw;
+    }
+    .nav__bar{
+        display: flex;
+        gap: 5vw;
+    }
+    .nav__item{
+        font-size: 1.4vw;
+    }
+    .logo{
+        width: 20vw;
+    }
+    .desktop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .subtexto__negro{
+        font-size: 3vw;
+        text-align: start;
+        padding-left: 10%;
+    }
+    .subtexto__blanco{
+        font-size: 3vw;
+        text-align: start;
+        padding-bottom: 10%;
+    }
+    .img__domicilio{
+        width: 35%;
+    }
+    .img__rappi{
+        width: 25%;
+        margin: 5%;
+    }
+    section .subtexto__blanco{
+        font-size: 6vw;
+        text-align: center;
+    }
+    .experimento{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contenedor__footer{
+        gap: 10vw;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        justify-content: start;
+        gap: 0px;
+    }
+    .link__redes{
+        grid-column: 2/3;
+    }
+    .formulario{
+        font-size: 2vw;
+    }
+    .bgmobile__black{
+        text-align: center;
+        padding-bottom: 0%;
+        padding-top: 3%;
+    }
+    .contenedor__mapa{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+        align-items: center;
+    }
+    .mapa{
+        width: 100%;
+        height: 90%;
+        grid-row: 1/3;
+    }
+    .contenedor__hijo{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        padding: 10%;
+    }
 }
