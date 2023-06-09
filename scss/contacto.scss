@@ -1,0 +1,28 @@
+.img__flecha{
+    width: 30%;
+}
+.formulario{
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 4vw;
+}
+input[type="reset"]{
+    object-fit: cover;
+    height: 10%;
+}
+label {
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="email"],textarea {
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button__form{
+    object-fit: cover;
+}

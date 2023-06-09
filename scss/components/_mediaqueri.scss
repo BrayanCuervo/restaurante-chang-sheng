@@ -1,0 +1,318 @@
+@media(min-width:400px) and (max-width:767px){
+    header{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .subtexto__small{
+        font-size: 2vw;
+    }
+    .desktop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .chef__ramsi{
+        width: 40%;
+        margin: 5%;
+    }
+    .promo{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    h3.button{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .img__menu{
+        margin: 5%;
+    }
+    .grid__{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .s{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .d{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .horario{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .desktop__clase{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,40vw);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img__jim{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .clase__texto{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .img__domicilio{
+        width: 30%;
+
+    }
+    .texto__small{
+        font-size: 6vw;
+    }
+    .img__rappi{
+        width: 30%;
+        margin: 8%;
+    }
+    .texto__rappi{
+        width: 50%;
+        font-size: 8vw;
+        margin: 0px;
+    }
+
+}
+
+
+
+
+
+@media(min-width:768px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10vw;
+    }
+    .nav__bar{
+        display: flex;
+        gap: 5vw;
+    }
+    .nav__item{
+        font-size: 1.4vw;
+    }
+    .logo{
+        width: 20vw;
+    }
+    .desktop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .subtexto__negro{
+        font-size: 3vw;
+        text-align: start;
+        padding-left: 10%;
+    }
+    .subtexto__blanco{
+        font-size: 3vw;
+        text-align: start;
+        padding-bottom: 10%;
+    }
+    .img__domicilio{
+        width: 20%;
+        margin: 0px;
+    }
+    section .subtexto__blanco{
+        font-size: 6vw;
+        text-align: center;
+    }
+    .experimento{
+        display: flex;
+        justify-content: space-around;
+    }
+    .contenedor__footer{
+        gap: 10vw;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(2,50%);
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .link__redes{
+        grid-column: 2/3;
+    }
+    .formulario{
+        font-size: 2vw;
+    }
+    .bgmobile__black{
+        text-align: center;
+        padding-bottom: 0%;
+        padding-top: 3%;
+    }
+    .contenedor__mapa{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(2,50%);
+        align-items: center;
+    }
+    .mapa{
+        width: 100%;
+        height: 90%;
+        grid-row: 1/3;
+    }
+    .contenedor__hijo{
+        grid-column: 2/3;
+        grid-row: 1/3;
+        padding: 10%;
+    }
+    .subtexto__small{
+        font-size: 2vw;
+    }
+    .borde{
+        padding: 0.5vw;
+        overflow: hidden;
+        margin-left: 0.3vw;
+        margin-right: 0.3vw;
+        border: 0.3vw coral solid;
+        height: 80%;
+    }
+    .chef{
+        height: 80%;
+    }
+    .chef__ramsi{
+        width: 40%;
+        margin: 5%;
+    }
+    .borde__lista{
+        margin: 5%;
+        padding-left: 2.5%;
+    }
+    .dos{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .tres{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .promocion{
+        margin: 5%;
+        grid-row: 1/3;
+    }
+    .promo{
+        height: 100%;
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .fondo__home{
+        height: 50vw;
+    }
+    .img__menu{
+        width: 90%;
+        height: 90%;
+        margin: 2%;
+    }
+    h3.button{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    .img__pita{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .img__lumpia{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .img__ramen{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .img__padthai{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .img__mouse{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .img__pie{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .img__homero{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .img__patricio{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .texto__clase{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .grid__{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .s{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .d{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .item__horario{
+        margin: 5%;
+    }
+    .desktop__clase{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 5vw 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .clase__texto{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: 5vw;
+    }
+    .jim{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .niño{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left: 30%;
+    }
+    .texto__small{
+        text-align: start;
+        padding-left: 10%;
+    }
+    .img__rappi{
+        width: 20%;
+        margin: 0px;
+    }
+    .texto__rappi{
+        width: 30%;
+        margin: 0px;
+    }
+    .texto__blanco{
+        font-size: 6vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}

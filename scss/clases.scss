@@ -1,0 +1,41 @@
+.img__jim{
+    width: 50%;
+    height: 70%;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+.texto__small{
+    font-size: 3vw;
+    font-family: "sigmar";
+    text-align: center;
+}
+.subtexto__medium{
+    font-size: 10vw;
+    font-family: "sigmar";
+    text-align: center;
+}
+
+.bg__gray{
+    background-color: lightgray;
+}
+.item__horario{
+    background-color: black;
+    color: white;
+}
+.grid__{
+    display: grid;
+    grid-template-columns: 1 10vw;
+    grid-template-rows: repeat(6,10vw);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.separador__rojo{
+    background-color: #4C061D;
+    height: 10vw;
+}
+.img__clase{
+    width: 80%;
+    margin: 10%;
+}

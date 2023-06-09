@@ -1,0 +1,40 @@
+.hero-footer {
+    background-color: #4C061D;
+}
+.contenedor__footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+
+.footer {
+    color: white;
+    text-decoration: none;   
+
+}
+.item__footer{
+    color: white;
+    text-decoration: none;
+    font-size: 3vw;
+    
+}
+
+.divf {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    grid-template-rows: 1fr 20px;
+}
+
+.conocenos{
+    grid-column: 1/3;
+    padding: 0pxs;
+}
+.encuentranos{
+    text-align: start;
+}
