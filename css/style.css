@@ -9,6 +9,7 @@
   font-family: "Food packer";
   src: url("../fonts/foodpack.otf");
 }
+/*==Header==*/
 ul li {
   list-style: none;
 }
@@ -100,6 +101,7 @@ ul li {
   transition-duration: 0.8s;
 }
 
+/*==Main==*/
 .letrero {
   background-color: #4C061D;
   font-family: "Food packer";
@@ -314,6 +316,7 @@ input[type=text], input[type=email], textarea {
   text-align: center;
 }
 
+/*==Footer==*/
 .hero-footer {
   background-color: #4C061D;
 }
