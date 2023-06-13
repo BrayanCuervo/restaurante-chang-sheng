@@ -3,6 +3,13 @@
     width: 100%;
     border: 0.5vw aqua solid;
     border-radius: 10px;
+    &:hover{
+        background-color:aqua ;
+        transform: scale(1,1) rotate(360deg);
+        transition-duration: 0.8s;
+        color: white;
+    }
 }
+
 
 

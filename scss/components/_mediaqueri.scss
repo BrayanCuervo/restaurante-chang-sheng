@@ -1,4 +1,5 @@
-@media(min-width:400px) and (max-width:767px){
+/*Tableta*/
+@media(min-width:420px) and (max-width:767px){
     header{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -31,6 +32,7 @@
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
+        font-size: 4vw
     }
     .img__menu{
         margin: 5%;
@@ -131,14 +133,9 @@
         height: 70vw;
         
     }
-
-
 }
 
-
-
-
-
+/*Desktop*/
 @media(min-width:768px){
     .header{
         display: flex;
@@ -289,6 +286,9 @@
         grid-column: 3/4;
         grid-row: 2/3;
     }
+    .img__ajuste{
+        height: 100%;
+    }
     .texto__clase{
         grid-column: 3/4;
         grid-row: 1/2;
@@ -374,6 +374,9 @@
         margin: 0px;
         margin-right: 5%;
         margin-left: 5%;
+    }
+    .texto__white{
+        font-size: 2vw;
     }
     .contenedor__mapa{
         display: grid;

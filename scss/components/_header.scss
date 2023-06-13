@@ -28,6 +28,7 @@ ul li{
     text-align: center;
     font-size: 3vw;
     padding: 0.5vw;
+
 }
 
 /* ---BARRA DE NAVEGACION--- */
@@ -44,6 +45,7 @@ ul li{
 .enlace__lista{
     text-decoration: none;
     color: white;
+    
     
 }
 .caja-contacto{
@@ -72,6 +74,7 @@ ul li{
 .nav-list{
     display: flex;
     gap: 100px;
+    
 }
 .domicilio__fondo{
     width: 100%;
@@ -91,4 +94,8 @@ ul li{
     background-color:white;
     color: black;
     border-radius: 100px;
+    &:hover{
+        background-color: darkgoldenrod;
+        transition-duration: 0.8s;
+    }
 }

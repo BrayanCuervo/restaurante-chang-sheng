@@ -14,9 +14,16 @@
 .bg__red{
     background-color: #4C061D;
 }
+
 .grid__column{
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-rows: repeat(6,40vw);
+}
+.texto__white{
+    color: white;
+    text-align: center;
+    font-family: "sigmar";
+    font-size: 4vw;
 }
