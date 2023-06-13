@@ -69,7 +69,25 @@
     }
     .img__domicilio{
         width: 30%;
-
+    }
+    .img__contacto{
+        width: 50%;
+        margin: 0px;
+        margin-left: 2%;
+    }
+    label{
+        font-size: 2.5vw;
+    }
+    input[type="text"],input[type="email"],textarea {
+        width: 100%;
+        height: 10%;
+        padding: 1%;
+        border-radius: 5px;
+    }
+    input[type="reset"],input[type="submit"]{
+        object-fit: cover;
+        height: 1%;
+        width: 50%;
     }
     .texto__small{
         font-size: 6vw;
@@ -83,6 +101,37 @@
         font-size: 8vw;
         margin: 0px;
     }
+    .img__flecha{
+        width: 50%;
+        margin: 25%;
+        margin-top: 10%;
+    }
+    .contenedor__mapa{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(4, 40vw);
+        align-items: center;
+    }
+    .texto__contacto{
+        font-size: 3vw;
+    }
+    .contenedor__contactanos{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .contenedor__flecha{
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+    .mapa{
+        grid-column: 1/3;
+        grid-row: 3/5;
+        width: 90%;
+        height: 70vw;
+        
+    }
+
 
 }
 
@@ -155,23 +204,6 @@
         text-align: center;
         padding-bottom: 0%;
         padding-top: 3%;
-    }
-    .contenedor__mapa{
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(2,50%);
-        grid-template-rows: repeat(2,50%);
-        align-items: center;
-    }
-    .mapa{
-        width: 100%;
-        height: 90%;
-        grid-row: 1/3;
-    }
-    .contenedor__hijo{
-        grid-column: 2/3;
-        grid-row: 1/3;
-        padding: 10%;
     }
     .subtexto__small{
         font-size: 2vw;
@@ -313,6 +345,66 @@
         font-size: 6vw;
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+    .texto__contacto{
+        font-size: 2vw;
+    }
+    .space{
+        font-size: 3.5vw;
+        padding: 2%;
+        text-align: center;
+        padding-left: 10vw;
+    }
+    label{
+        font-size: 2vw;
+        margin: 0px;
+    }
+    input[type="text"],input[type="email"],textarea {
+        width: 100%;
+        height: 10%;
+        padding: 2%;
+        border-radius: 5px;
+    }
+    input[type="reset"],input[type="submit"]{
+        height: 1%;
+        width: 50%;
+    }
+    .img__contacto{
+        width: 50%;
+        margin: 0px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .contenedor__mapa{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2,50%);
+        grid-template-rows: repeat(3,15vw);
+        align-items: center;
+    }
+    .contenedor__hijo{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .mapa{
+        grid-column: 1/2;
+        grid-row: 1/4;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    .contenedor__flecha{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .contenedor__contactanos{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .img__flecha{
+        width: 80%;
+        height: 15vw;
+        transform: rotate(0deg);
     }
 
 }
