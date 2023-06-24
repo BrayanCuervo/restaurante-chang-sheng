@@ -1,5 +1,5 @@
 /*Tableta*/
-@media(min-width:420px) and (max-width:767px){
+@media(min-width:320px) and (max-width:767px){
     header{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -32,7 +32,7 @@
         width: 40%;
         margin-left: 30%;
         margin-right: 30%;
-        font-size: 4vw
+        font-size: 3.6vw
     }
     .img__menu{
         margin: 5%;
